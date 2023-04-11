@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from '\./MyComponent/Navbar';
 import React, {useState} from 'react';
 import Todos from './MyComponent/Todos';
+import Footer from './MyComponent/Footer';
 
 function App() {
   const [mode , setMode] = useState('light'); 
@@ -21,7 +22,7 @@ function App() {
   }
 
   // Todos array
-  let todos = [
+  const [todos, setTodos] =useState ([
     {
       sno :1,
       title : "Go to market",
@@ -37,10 +38,13 @@ function App() {
       title : "Go to amazon",
       desc : "Go amazon and complete job 3"
     }
-  ]
+  ]);
 
-  const onDelete = (todos)=> {
-    console.log("I am On Delete of todo ",todos)
+  const onDelete = (todo)=> {
+    console.log("I am On Delete of todo ",todo)
+    setTodos(todos.filter((e)=>{
+      return e!==todo;
+    }))
   }
 
   return (
@@ -48,6 +52,8 @@ function App() {
        <Navbar title="TODO's List" mode={mode} toggleMode={toggleMode} />
        <br/>
        <Todos todos={todos} onDelete={onDelete} />
+       <br/><br/>
+       <Footer />
     </>
   );
 }

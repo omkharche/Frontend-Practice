@@ -3,7 +3,7 @@ import React from 'react'
 export default function MyTodo({todos, onDelete}) {
   return (
     <>
-        <div className="container" style={{paddingLeft:'0px'}}>
+        <div className="container-fluid" style={{paddingLeft:'0px'}}>
             <br/>
             <h6>{todos.sno}</h6>
             <h5>{todos.title}</h5>
