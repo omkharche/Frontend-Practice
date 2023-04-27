@@ -7,7 +7,7 @@ import AddTodo from './MyComponent/AddTodo';
 import About from './MyComponent/About';
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   Link
 } from "react-router-dom";
@@ -82,21 +82,20 @@ function App() {
       <Router>
         <Navbar title="TODO's List" mode={mode} toggleMode={toggleMode} />
         <br/>
-        <Switch>
-          <Route path="/" render={()=>{
-            return(
+        <Routes>
+          <Route exact path="/" element={
               <>
                 <AddTodo addTodo={addTodo} />
                 <br/>
                 <Todos todos={todos} onDelete={onDelete} />
               </>
-            )
-          }}>
+            
+          }>
           </Route>
-          <Route path="/about">
-            <About />
+          <Route exact path="/about" element=<About />>
+            
           </Route>
-        </Switch>
+        </Routes>
         <br/><br/>
         <Footer />
       </Router>
