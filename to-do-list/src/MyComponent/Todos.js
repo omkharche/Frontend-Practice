@@ -6,12 +6,14 @@ export default function Todos({todos, onDelete}) {
     <>
         <div className="container">
             <h3 className='text-center my-3'>Todos List</h3>
-            {todos.length===0? "No Todo to display" :
-            
+            {
+              todos.length===0? "No Todo to display" :
               todos.map((todos) => {
-               return <MyTodo key={todos.sno} todos={todos} onDelete={onDelete} />
+              return <MyTodo key={todos.sno} todos={todos} onDelete={onDelete} />
               })
             }
+           
+            
         </div>
     </>
   )
