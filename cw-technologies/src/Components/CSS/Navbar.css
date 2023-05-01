@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cl1{
+   margin-left: 60px;
+   margin-top: 5px;
+}
+.logo{
+    width: 70px;
+}
+.NavP1{
+    display: flex;
+    gap: 35vw;
+}
+.NavP2{
+    display: flex;
+    gap: 35px;
+    margin-top: 25px;
+    font-weight:600;
+}
