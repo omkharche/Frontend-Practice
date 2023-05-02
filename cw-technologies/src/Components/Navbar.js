@@ -11,25 +11,25 @@ export default function Navbar() {
                     <img src={logo} alt="logo" className='logo'></img>
                 </div>
                 <div className='NavP2'>
-                    <div>
+                    <div class="dh">
                         Home
                     </div>
-                    <div>
+                    <div class="dh">
                         About
                     </div>
-                    <div>
+                    <div class="dh">
                         Services
                     </div>
-                    <div>
+                    <div class="dh">
                         Programs
                     </div>
-                    <div>
+                    <div class="dh">
                         Blogs
                     </div>
-                    <div>
+                    <div class="dh">
                         Career
                     </div>
-                    <div>
+                    <div class="dh">
                         Contact Us
                     </div>
                 </div>

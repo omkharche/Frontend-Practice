@@ -32,7 +32,7 @@ export default function AddTodo(props) {
                 </div>
                 <button type="submit" className="btn btn-sm btn-success" >Submit</button>
             </form>
-        </div>
+        </div>  
     </>
   )
 }
