@@ -30,3 +30,35 @@
 
  
 }
+.hc1{
+    background-image: linear-gradient(to bottom right, rgb(30, 108, 252), rgb(18, 188, 255));
+    background-size:cover;
+    filter: brightness(99%);
+    width: 100%;
+    height: 75vh;
+    margin: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+#s1{
+    color: white;
+    margin-left: 4vw;
+    font-weight: 650;
+    font-size: 1.9vw;
+    margin-top: 20vh;
+    margin-bottom: 0px;
+}
+.s2{
+    margin-left: 4vw;
+    color: white;
+    font-weight: 650;
+    font-size: 2.6vw;
+    margin-top: 5px;
+}
+.cs1{
+    margin-top: 50px;
+
+ 
+}
