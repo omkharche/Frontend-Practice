@@ -21,4 +21,5 @@
 }
 .dh:hover{
     color: rgb(53, 115, 230);
+    cursor: pointer;;
 }

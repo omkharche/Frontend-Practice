@@ -1,4 +1,5 @@
 import React from 'react'
+
 import ub1 from './Assets/ub1.png'
 import "./CSS/Home.css"
 
@@ -14,8 +15,10 @@ export default function Home() {
             <div class='d2'>
                 <img src={ub1} class="cs1" alt="guy on laptop"></img>
             </div>
-        </div>
+        </div>  
         
-    </>
+        <i class="fa-solid fa-chevrons-down"></i>
+      
+      </>
   )
 }
