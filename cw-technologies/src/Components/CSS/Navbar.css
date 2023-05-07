@@ -20,6 +20,7 @@
     font-weight:600;
 }
 .dh:hover{
-    color: rgb(53, 115, 230);
+    color: rgb(3, 135, 236);
     cursor: pointer;;
+    transform: scale(1.06);
 }

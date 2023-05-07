@@ -55,3 +55,126 @@
 .btn1:hover {
     transform: scale(1.02);
 }
+.icon-div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 33px;
+}
+.line-1{
+    margin-top: 10px;
+    height: 2px;
+    width: 50px;
+    background-color: rgb(18, 152, 255);
+}
+.icon1-css{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.line-2{
+    margin-top: 10px;
+    height: 2px;
+    width: 50px;
+    background-color: rgb(18, 152, 255);
+}
+.s-div{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.s1{
+    font-size: 30px;
+    font-weight: 650;
+    color: rgb(3, 135, 236);
+}
+.sp2{
+    font-size: 26px;
+    color: rgb(0, 0, 0); 
+    font-weight:400;
+}
+.s3{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.sp4{
+    font-weight: 600;
+    color: rgb(3, 135, 236);
+}
+.c-div{
+    margin-top: 100px;
+    display: flex;
+   
+}
+.cd1{
+    margin-top: 55px;
+    margin-left: 3%;
+    position:relative;
+    width:29.3%;
+    height: 200%;
+    background-image: linear-gradient( rgb(73, 135, 250), rgb(29, 191, 255));
+    justify-content: center;
+    text-align: center;
+    
+}
+.cimg1{
+    width: 75%;
+    height: 70%;
+    margin-top: -15%;
+    border-radius: 50%;
+}
+.cp1{
+    margin-top: 5%;
+    font-size: 25px;
+    font-weight: 700;
+}
+.cp2{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(47, 47, 47);
+    width: 80%;
+    margin-left: 10%;
+}
+.t-div{
+    margin-top: 70px;
+    background-image: url('../Assets/bg1.jpg');
+    background-size:cover;
+    text-align: center;
+}
+.tflex{
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ts1{
+    font-size: 33px;
+    font-weight: 650;
+    color: rgb(36, 160, 254);
+    margin-bottom: 0px;
+}
+.timg{
+    width:130px;
+    border-radius: 50%;
+    border: solid 2.3px rgb(36, 160, 254);
+}
+.tf1{
+    width: 25%;
+    margin-top: 35px;
+}
+.tp1{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+}
+.cwh{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+}
+ 
