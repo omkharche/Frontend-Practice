@@ -11,13 +11,16 @@
 }
 .NavP1{
     display: flex;
-    gap: 35vw;
+    gap: 40vw;
 }
 .NavP2{
     display: flex;
-    gap: 35px;
+    gap: 40px;
     margin-top: 25px;
     font-weight:600;
+}
+.dh{
+    font-size: 1.15rem;
 }
 .dh:hover{
     color: rgb(3, 135, 236);

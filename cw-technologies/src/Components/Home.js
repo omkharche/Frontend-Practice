@@ -2,6 +2,15 @@ import React from 'react'
 import ub1 from './Assets/ub1.png'
 import "./CSS/Home.css"
 export default function Home() {
+  let box = document.querySelector('.slider-img');
+  const btnnext = () => {
+    let width=box.clientWidth;
+    box.scrollLeft = box.scrollLeft + width;
+}
+const btnprev = () => {
+  let width=box.clientWidth;
+  box.scrollLeft = box.scrollLeft - width;
+}
   return (
     <>
         <div className='container-fluid hc1'>
@@ -84,51 +93,56 @@ export default function Home() {
             <br></br>
             </div>
             
-
-            <div className='j'>
-              <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <div className="cwh">
-                      <img src="https://ankhub.in/wp-content/uploads/2022/08/Adarsh-Learning-150x150.png" class="d-block w-100 " alt="..." />
-                      <img src="https://ankhub.in/wp-content/uploads/2022/08/ambience-garden-150x150.png" class="d-block w-100" alt="."></img>
-                      <img src="https://ankhub.in/wp-content/uploads/2022/08/ambience-garden-150x150.png" class="d-block w-100" alt="."></img>
-                      <img src="https://ankhub.in/wp-content/uploads/2022/08/ambience-garden-150x150.png" class="d-block w-100" alt="."></img>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://ankhub.in/wp-content/uploads/2022/08/ambience-garden-150x150.png" class="d-block w-30" alt="..." />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://ankhub.in/wp-content/uploads/2022/08/chaatrapati-digimark-150x150.png" class="d-block w-30" alt="..." />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://ankhub.in/wp-content/uploads/2022/08/ambience-garden-150x150.png" class="d-block w-30" alt="..." />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://ankhub.in/wp-content/uploads/2022/08/chaatrapati-digimark-150x150.png" class="d-block w-30" alt="..." />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://ankhub.in/wp-content/uploads/2022/08/ambience-garden-150x150.png" class="d-block w-30" alt="..." />
-                  </div>
-                  <div class="carousel-item">
-                    <img src="https://ankhub.in/wp-content/uploads/2022/08/chaatrapati-digimark-150x150.png" class="d-block w-30" alt="..." />
-                  </div>
-                  
+            
+            <span className='o1'><u><p className='op'>Our Projects</p></u></span>
+            <p className='o3'>Our team work closely with clients to deliver <br></br> guaranteed returns on their investments ensuring 100% clients satisfaction.</p>
+            
+            
+            <div>
+              <div className='slider'>
+                <button className='moveleft' onClick={btnprev}><p><i class="fa-solid fa-chevron-left"></i></p></button>
+                <button className='moveright' onClick={btnnext}><p><i class="fa-solid fa-chevron-right"></i></p></button>
+              
+                <br></br>
+                <div className='slider-img'>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/chaatrapati-digimark-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/network-hub-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/Pa-Logo-Nivi-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/Patkhange-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/inner-bright-logo-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/Political-Wazier-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/SP-pro-tech-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/15122452345-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/Adarsh-Learning-150x150.png"></img>
+                  <img className='simg' src="https://ankhub.in/wp-content/uploads/2022/08/ambience-garden-150x150.png"></img>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
             </div>
-            <br></br>
-       
-        
+            <br></br><br></br>
+            <footer>
+              <div className='f-div'>
+                <p className='sm1'>. </p>
+                <div className='subbox'>
+                  <div className='sb1'>   
+                    <p className='sf1'>Subscribe to our Newsletter!</p>
+                    <p className='sf2'>Get the latest updates and offers from our firm<br></br>
+                    right in your email.</p>
+                  </div>
+                  <div className='sb2'>
+                    <input type='email' className='textbox-em'></input>
+                    <button className='btn12'>Submit</button>
+                  </div>
+                </div>
+                <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                  <br></br>
+              </div>
+            </footer>
+
       </>
   )
+  
 }

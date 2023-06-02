@@ -6,7 +6,7 @@
     background-size:cover;
     filter: brightness(99%);
     width: 100%;
-    height: 75vh;
+    height: 65vh;
     margin: 0px;
     margin-right: 0px;
     padding: 0px;
@@ -14,7 +14,7 @@
     gap: 20px;
 }
 .d1{
-    width: 55vw;
+    width: 62%;
 }
 .d2{
 
@@ -38,7 +38,7 @@
     width: 47vw;
 }
 .cs1{
-    margin-top: 40px;
+    margin-top: 5vw;
  
 }
 .btn1{
@@ -78,10 +78,10 @@
     background-color: rgb(18, 152, 255);
 }
 .s-div{
+    margin-top: 80px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
 }
 .s1{
     font-size: 30px;
@@ -106,7 +106,7 @@
     color: rgb(3, 135, 236);
 }
 .c-div{
-    margin-top: 100px;
+    margin-top: 120px;
     display: flex;
    
 }
@@ -115,7 +115,7 @@
     margin-left: 3%;
     position:relative;
     width:29.3%;
-    height: 200%;
+    height: 410px;
     background-image: linear-gradient( rgb(73, 135, 250), rgb(29, 191, 255));
     justify-content: center;
     text-align: center;
@@ -123,7 +123,7 @@
 }
 .cimg1{
     width: 75%;
-    height: 70%;
+    height: 75%;
     margin-top: -15%;
     border-radius: 50%;
 }
@@ -133,7 +133,7 @@
     font-weight: 700;
 }
 .cp2{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 500;
     color: rgb(47, 47, 47);
     width: 80%;
@@ -177,4 +177,99 @@
     display: flex;
     gap: 30px;
 }
- 
+.slider{
+    position: relative;
+    overflow: hidden;
+    
+}
+.slider-img{
+    overflow-x: hidden;
+    display: flex;
+    scroll-behavior: smooth;
+    gap: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.moveright, .moveleft{
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.moveright{
+    right: 0;
+}
+
+.moveright p, .moveleft p{  
+    font-size: 22px;
+}
+.o1{
+    font-size: 30px;
+    font-weight: 650;
+    color: rgb(3, 135, 236);
+    text-align: center;
+}
+.o3{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 600;
+    text-align: center;
+}
+.op{
+    margin-top: 60px;
+}
+.f-div{
+    background-image: url('../Assets/bg2.jpg');
+    position: relative;
+    background-size: cover;
+}
+.subbox{
+    background: linear-gradient(to bottom right, rgb(30, 108, 252), rgb(18, 188, 255));
+    display: flex;
+    gap: 14%;
+    width: 80%;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    left: 10%
+}
+.sb1{
+    margin-left: 7%;
+}
+.sf1{
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 630;
+}
+.sf2{
+    color: white;
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+}
+.sm1{
+    font-size: 12px;
+}
+.textbox-em{
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 35px;
+    width: 450px;
+}
+.btn12{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    font-weight: 500;
+    padding: 3px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: translate(-100%);
+}
