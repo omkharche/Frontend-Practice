@@ -100,7 +100,7 @@ const btnprev = () => {
             
             <div>
               <div className='slider'>
-                <button className='moveleft' onClick={btnprev}><p><i class="fa-solid fa-chevron-left"></i></p></button>
+              <button className='moveleft' onClick={btnprev}><p><i class="fa-solid fa-chevron-left"></i></p></button>
                 <button className='moveright' onClick={btnnext}><p><i class="fa-solid fa-chevron-right"></i></p></button>
               
                 <br></br>
@@ -124,7 +124,7 @@ const btnprev = () => {
                 <p className='sm1'>. </p>
                 <div className='subbox'>
                   <div className='sb1'>   
-                    <p className='sf1'>Subscribe to our Newsletter!</p>
+                  <p className='sf1'>Subscribe to our Newsletter!</p>
                     <p className='sf2'>Get the latest updates and offers from our firm<br></br>
                     right in your email.</p>
                   </div>
@@ -133,12 +133,28 @@ const btnprev = () => {
                     <button className='btn12'>Submit</button>
                   </div>
                 </div>
-                <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <br></br>
+                <div className="footer-details">
+                  <div className='row'>
+                    <div className='col'>           
+                      Quick Links
+                    </div>
+                    <div className='co1'>
+                    Useful Links
+
+                    </div>
+                    <div className='co1'>
+                      
+                    </div>
+                    <div className='co1'>
+                      
+                    </div>
+                    <div className='co1'>
+                      
+                    </div>
+                  </div>
+                </div>
+
+                 
               </div>
             </footer>
 
