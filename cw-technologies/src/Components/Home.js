@@ -1,6 +1,7 @@
 import React from 'react'
 import ub1 from './Assets/ub1.png'
 import "./CSS/Home.css"
+import "./CSS/resp.css"
 export default function Home() {
   let box = document.querySelector('.slider-img');
   const btnnext = () => {
@@ -25,14 +26,14 @@ const btnprev = () => {
         </div>
 
         <div className='icon-div'>
-          <div className="line-1"></div>
+          <div className="line-1"></div> 
           <i class="fa-solid fa-angles-down fa-bounce icon1-css"></i>
           <div className="line-2"></div>
         </div>
         <div className="s-div">
-          <span className='s1'>Welcome to CW Technology Services</span><br></br>
+          <span className='sp1'>Welcome to CW Technology Services</span><br></br>
           <span className='sp2'>Business Secrets for your Success</span><br></br>
-          <p className='s3'>AnkHub Services Technology  is an<span className="sp4"> innovative team </span>who would be providing services to its client <span className="sp4">globally,</span> promoted by <span className="sp4">professionals</span> having rich expression in <span className="sp4">business intelligent, consulting,  staffing, outsourcing,</span> and <span className="sp4">training domain</span> specializes in the Business of <span className="sp4">infrastructure services</span> and <span className="sp4">talent management solutions</span>.</p>
+          <p className='sp3'>AnkHub Services Technology  is an<span className="sp4"> innovative team </span>who would be providing services to its client <span className="sp4">globally,</span> promoted by <span className="sp4">professionals</span> having rich expression in <span className="sp4">business intelligent, consulting,  staffing, outsourcing,</span> and <span className="sp4">training domain</span> specializes in the Business of <span className="sp4">infrastructure services</span> and <span className="sp4">talent management solutions</span>.</p>
         </div>
         
         <div className='c-div'>
