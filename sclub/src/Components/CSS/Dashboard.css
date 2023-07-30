@@ -1,0 +1,13 @@
+.sp1{
+    font-size: 30px;
+    font-weight: 650;
+    color: rgb(3, 135, 236);
+    text-align: center;
+}
+.button-adjust
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 40.5%;
+}

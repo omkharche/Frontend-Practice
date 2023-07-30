@@ -1,5 +1,9 @@
 import React from 'react'
 import "./CSS/Navbar.css"
+import {
+    Link
+  } from "react-router-dom";
+  
 import logo from "./Assets/Logo-bg.png"
 
 export default function Navbar() {
@@ -12,10 +16,10 @@ export default function Navbar() {
                 </div>
                 <div className='NavP2'>
                     <div class="dh">
-                        Home
+                        <Link className="nav-link" to="/">Home</Link>
                     </div>
                     <div class="dh">
-                        About
+                        <Link className="nav-link" to="/About">About</Link>
                     </div>
                     <div class="dh">
                         Services
@@ -30,7 +34,7 @@ export default function Navbar() {
                         Career
                     </div>
                     <div class="dh">
-                        Contact Us
+                        <Link className="nav-link" to="/Contact">Contact Us</Link>
                     </div>
                 </div>
             </div>

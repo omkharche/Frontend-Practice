@@ -89,11 +89,13 @@ function App() {
                 <br/>
                 <Todos todos={todos} onDelete={onDelete} />
               </>
-            
           }>
           </Route>
-          <Route exact path="/about" element=<About />>
-            
+          <Route exact path="/about" element= {
+            <>
+              <About />
+            </>
+          } >
           </Route>
         </Routes>
         <br/><br/>

@@ -1,12 +1,19 @@
 import React from 'react'
+export default function About({}) {
 
-export default function About() {
-  return (
+    let footerStyle = {
+        position:'absolute',
+    
+        width:'100%'
+    }
+    return (
     <>
-        <h3>About Us</h3>
-        <h6>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt labore rem, quo voluptatum consequuntur nam culpa pariatur molestias est non perferendis unde deserunt atque ipsam, provident explicabo magni corrupti numquam.
-        </h6>
+        <footer className="bg-dark text-light py-3" style={footerStyle}>
+            <p className="text-center" style={{margin:'0px'}}>
+                Copyright &copy; MyTodosList.com
+            </p>
+        </footer>
     </>
   )
 }
+

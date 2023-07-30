@@ -1,0 +1,21 @@
+
+.cl1{
+   margin-left: 60px;
+   margin-top: 5px;
+}
+.logo{
+    width: 80px;
+}
+.NavP1{
+    margin-left: 44vw;
+}
+.dh{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 15px;
+}
+.dh:hover{
+    color: rgb(3, 135, 236);
+    cursor: pointer;;
+    transform: scale(1.06);
+}
